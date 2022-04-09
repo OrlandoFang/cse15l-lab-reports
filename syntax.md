@@ -11,3 +11,4 @@
 `print("Hello World")`
 
 Editing On VSCode
+![Emoji](http://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/rolling-on-the-floor-laughing.png)

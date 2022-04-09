@@ -1,4 +1,4 @@
 Image
 
-![Screenshot](Screenshot (11).png)
+![Screenshot](screenshot.png)
 ![Emoji](EmojiLaugh.png)

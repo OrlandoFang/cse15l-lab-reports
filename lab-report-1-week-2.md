@@ -5,7 +5,7 @@ For installing VScode, I downloaded Visual Studio Code from the [offical website
 ![VSCode](VSCode.png)
 
 **2. Remotely Connecting**
-First, I looked up for my username and changed my password for my cse15l account on the [school webstie](https://sdacs.ucsd.edu/~icc/index.php). Then, I opened a new terminal on VScode and entered ssh along with my usename. Next, I entered the new password and I was able to remotely connect to my cse15l account.
+First, I looked up for my username and changed my password for my cse15l account on the [school webstie](https://sdacs.ucsd.edu/~icc/index.php). Then, I opened a new terminal on VScode and entered ```ssh``` along with my usename. Next, I entered the new password and I was able to remotely connect to my cse15l account.
 
 ![ssh](ssh.png)
 

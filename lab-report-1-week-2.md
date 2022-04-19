@@ -25,6 +25,7 @@ First, on your computer (not on the server of the remote account), open a termin
 ![key](key.png)
   
 ## 6. Optimizing Remote Running
-Now since you already set an ssh key, you can directly run commands on your remote account by adding commanding in "" after entering ssh and account. For example, ssh cs15lsp22ake@ieng6.ucsd.edu "ls" would list my home directory on the remote server.
+Now since you already set an ssh key, you can directly run commands on your remote account by adding commanding inside quotation marks "" after entering ssh and account. You can also seperate commands by semicolons to process different commands in one line. 
+In the picture below, the example is ```ssh cs15lsp22ake@ieng6.ucsd.edu "ls; javac WhereAmI.java; java WhereAmI"```. Within one line, I accessed by remote account,  list my home directory on the remote server, and compiled the java file WhereAmI. Being able to enter multiple commands in one line largely shortens the time. In the past to do this I need to enter 4 different lines of code but now I can fit this in one line, which saved me work and time.
   
-![remoteRun](remoteRun.png)
+![savetime](savetime.png)

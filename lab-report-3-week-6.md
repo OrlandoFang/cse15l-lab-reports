@@ -15,7 +15,7 @@ Now, I can directly copy a local file to my remove account by replacing my usern
 
 ## Setup Github Access from ieng6
 
-![github_access](id_rsa_github.png)
+![github_access](id_rsa_github_server.png)
 ![githubssh](githubssh.png)
 
 I generated and stored my public key in my account and my github ssh keys.

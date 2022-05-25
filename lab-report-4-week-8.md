@@ -1,10 +1,10 @@
-##Lab Report 4
+## Lab Report 4
 
-##Links to repositories:
+## Links to repositories:
 [myRepository](https://github.com/OrlandoFang/markdown-parser)
 [reviewedRepository](https://github.com/alixintong/markdown-parser)
 
-##Expected Output:
+## Expected Output:
 
 ![snippet1](snippet1.png)
 
@@ -18,7 +18,7 @@ As the preview in VSCode shown, in snippet2 ```a.com```became a link with the na
 
 As the preview in VSCode shown, in snippet3 only the link with the name ```this title text is really long and takes up more than one line``` is a valid link. The other two links that are mark blue failed to relate to its name, so they are not valid. The expected output should be ```[https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule]```.
 
-##Running Tests:
+## Running Tests:
 
 After finding the expected outputs, I added 3 tests in MarkdownParseTest.java.
 
@@ -33,7 +33,7 @@ For the implementation I reviewed, all three tests also failed.
 ![reviewError1](reviewError1.png)
 ![reviewError2](reviewError2.png)
 
-##Question Responses:
+## Question Responses:
 
 1. I think a small code change can make my program work for snippet 1 and all related cases that use inline code with backticks. 
 To fix this error, I would add a if statement check if there exist one backtick right before the open bracket. If there exist more than or less than one backtick then the link would be valid, if not the link would be invalid.

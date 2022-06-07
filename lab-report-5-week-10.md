@@ -15,6 +15,7 @@ Expected output is that there is no valid link
 ![diff1expected](diff1expected.png)
 
 Finding Bug:
+
 ![diff1code](diff1code.png)
 
 The bug is that the method does not check if there exist new lines between brackets and parentheses, so my implementation assumed that this link is valid as long as there exist a open parentheses and a close parentheses.
